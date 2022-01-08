@@ -1,0 +1,8 @@
+// create package.json
+
+$npm init -y
+
+// Add libraries
+
+$ npm i express dotenv jsonwebtoken
+
