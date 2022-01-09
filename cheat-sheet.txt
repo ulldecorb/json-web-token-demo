@@ -1,3 +1,5 @@
+ARCHITECTURE:
+
 // create package.json
 
 $npm init -y
@@ -6,3 +8,27 @@ $npm init -y
 
 $ npm i express dotenv jsonwebtoken
 
+
+FILES
+
+index.js : api generator and authorization
+.env : Secret token
+
+ARQUITECTURE
+
+/ - welcome
+/api - confident info to protect
+/login - login user
+/auth - token used for request
+
+
+
+
+
+
+
+
+//Rest Client extension
+
+GET http://localhost:3000/api
+Authorization: token
